@@ -1,0 +1,35 @@
+{
+    "name" : "pipestop",
+    "description" : "like stream.pipe(), but stoppable",
+    "version" : "0.0.0",
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-pipestop.git"
+    },
+    "main" : "index.js",
+    "keywords" : [
+        "pipe",
+        "stream",
+        "stop"
+    ],
+    "directories" : {
+        "lib" : ".",
+        "example" : "example",
+        "test" : "test"
+    },
+    "scripts" : {
+        "test" : "tap test"
+    },
+    "devDependencies" : {
+        "tap" : "0.0.x"
+    },
+    "engines" : {
+        "node" : ">=0.4.0"
+    },
+    "license" : "MIT",
+    "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+    }
+}
