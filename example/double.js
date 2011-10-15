@@ -1,8 +1,8 @@
-var divert = require('../');
+var pipestop = require('../');
 var EventEmitter = require('events').EventEmitter;
 
 var em = new EventEmitter;
-var pipe = divert(em);
+var pipe = pipestop(em);
 
 var ix = 0;
 setInterval(function () {
